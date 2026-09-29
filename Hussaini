@@ -1,1 +1,250 @@
 
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hussaini | همیار حسینی</title>
+  <meta name="description" content="Hussaini - کمک مالی، کمک آموزشی و کمک درمانی" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <div class="logo">
+        <div class="logo-mark">H</div>
+        <div>
+          <h1>Hussaini</h1>
+          <small>همیار حسینی</small>
+        </div>
+      </div>
+
+      <nav class="menu">
+        <a href="#home">خانه</a>
+        <a href="#about">درباره</a>
+        <a href="#services">خدمات</a>
+        <a href="#donate">کمک مالی</a>
+        <a href="#education">آموزش</a>
+        <a href="#health">درمان</a>
+        <a href="#contact">تماس</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="lang-btn" id="langToggle">پښتو</button>
+        <button class="btn btn-outline" id="loginBtn">ورود</button>
+        <button class="btn btn-primary" id="signupBtn">ثبت‌نام</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="badge">Hussaini</span>
+          <h2 data-i18n="heroTitle">همکاری برای حمایت از نیازمندان</h2>
+          <p data-i18n="heroText">
+            ما در Hussaini به کمک مالی، آموزش و خدمات درمانی برای افراد نیازمند کمک می‌کنیم تا زندگی بهتر و امن‌تری داشته باشند.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" data-i18n="donateNow">کمک مالی</button>
+            <button class="btn btn-outline" data-i18n="joinUs">همکاری</button>
+          </div>
+
+          <div class="stats">
+            <div>
+              <strong>250+</strong>
+              <span data-i18n="peopleHelped">افراد کمک‌شده</span>
+            </div>
+            <div>
+              <strong>15</strong>
+              <span data-i18n="projects">پروژه</span>
+            </div>
+            <div>
+              <strong>24/7</strong>
+              <span data-i18n="support">پشتیبانی</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="card-box">
+            <h3 data-i18n="mission">ماموریت ما</h3>
+            <ul>
+              <li data-i18n="mission1">کمک مالی به خانواده‌های نیازمند</li>
+              <li data-i18n="mission2">پشتیبانی آموزشی و یادگیری</li>
+              <li data-i18n="mission3">کمک درمانی و مراقبت</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span>Hussaini</span>
+          <h3 data-i18n="aboutTitle">درباره ما</h3>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p data-i18n="aboutText1">
+              Hussaini یک مجموعهٔ انسانی است که با رویکرد همیاری، به افراد نیازمند در زمینه‌های مالی، آموزشی و درمانی کمک می‌کند.
+            </p>
+            <p data-i18n="aboutText2">
+              ما باور داریم که هر فردی می‌تواند راه‌حل و امیدی برای دیگری باشد، پس با همکاری و همدلی، در ساختن جامعه‌ای دلسوزانه نقش داریم.
+            </p>
+          </div>
+
+          <div class="about-box">
+            <h4 data-i18n="ourValues">ارزش‌های ما</h4>
+            <ul>
+              <li data-i18n="value1">احترام به انسان</li>
+              <li data-i18n="value2">کمک بدون تبعیض</li>
+              <li data-i18n="value3">شفافیت و اعتماد</li>
+              <li data-i18n="value4">همکاری و همدلی</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="services">
+      <div class="container">
+        <div class="section-head">
+          <span>Services</span>
+          <h3 data-i18n="servicesTitle">خدمات ما</h3>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <div class="icon">💰</div>
+            <h4 data-i18n="serviceDonate">کمک مالی</h4>
+            <p data-i18n="serviceDonateText">حمایت مالی برای خانواده‌های نیازمند و نیازهای اساسی روزمره.</p>
+          </div>
+
+          <div class="card">
+            <div class="icon">📚</div>
+            <h4 data-i18n="serviceEducation">کمک آموزشی</h4>
+            <p data-i18n="serviceEducationText">کمک به آموزش، کتاب، کلاس و فرصت‌های یادگیری برای کودکان و جوانان.</p>
+          </div>
+
+          <div class="card">
+            <div class="icon">🩺</div>
+            <h4 data-i18n="serviceHealth">کمک درمانی</h4>
+            <p data-i18n="serviceHealthText">پشتیبانی در درمان، معاینه و کمک‌های پزشکی و بهداشتی.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="donate">
+      <div class="container">
+        <div class="section-head">
+          <span>Donate</span>
+          <h3 data-i18n="donateTitle">کمک مالی</h3>
+        </div>
+
+        <div class="donate-box">
+          <div>
+            <h4 data-i18n="donateText">هر کمک کوچک می‌تواند زندگی را روشن‌تر کند.</h4>
+          </div>
+          <button class="btn btn-primary" data-i18n="donateButton">درخواست کمک</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="education">
+      <div class="container">
+        <div class="section-head">
+          <span>Education</span>
+          <h3 data-i18n="educationTitle">کمک آموزشی</h3>
+        </div>
+
+        <div class="grid-2">
+          <div class="mini-box">
+            <h4 data-i18n="edu1">کلاس‌ها و دوره‌ها</h4>
+            <p data-i18n="edu1Text">برگزار کردن کلاس‌های آموزشی برای دانش‌آموزان و جوانان.</p>
+          </div>
+          <div class="mini-box">
+            <h4 data-i18n="edu2">کتاب و آموزش</h4>
+            <p data-i18n="edu2Text">تأمین کتاب، لوازم تحصیلی و آموزش‌های پایه.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="health">
+      <div class="container">
+        <div class="section-head">
+          <span>Health</span>
+          <h3 data-i18n="healthTitle">کمک درمانی</h3>
+        </div>
+
+        <div class="grid-2">
+          <div class="mini-box">
+            <h4 data-i18n="health1">پشتیبانی پزشکی</h4>
+            <p data-i18n="health1Text">کمک به درمان افراد نیازمند و حمایت از خدمات پزشکی.</p>
+          </div>
+          <div class="mini-box">
+            <h4 data-i18n="health2">کمک‌های درمانی</h4>
+            <p data-i18n="health2Text">حمایت از بیماران و خانواده‌های آنان برای دسترسی به خدمات بهداشتی.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <div class="section-head">
+            <span>Contact</span>
+            <h3 data-i18n="contactTitle">تماس</h3>
+          </div>
+
+          <ul class="contact-list">
+            <li>📞 +93798611094</li>
+            <li>📧 mohammadhussaini374@gmail.com</li>
+            <li>📍 افغانستان</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="نام شما" required />
+          <input type="email" placeholder="ایمیل شما" required />
+          <textarea placeholder="پیام شما" rows="5" required></textarea>
+          <button class="btn btn-primary" type="submit" data-i18n="send">ارسال پیام</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal hidden" id="authModal">
+    <div class="modal-box">
+      <button class="close-btn" id="closeModal">×</button>
+
+      <div class="auth-tabs">
+        <button class="tab active" data-mode="login">ورود</button>
+        <button class="tab" data-mode="signup">ثبت‌نام</button>
+      </div>
+
+      <form id="authForm">
+        <input type="text" id="fullName" placeholder="نام کامل" class="hidden" />
+        <input type="email" id="email" placeholder="ایمیل" required />
+        <input type="password" id="password" placeholder="رمز عبور" required />
+        <button type="submit" class="btn btn-primary full-width" id="authSubmit">ورود</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Hussaini</p>
+      <p>همیار حسینی</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
